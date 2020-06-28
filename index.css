@@ -573,3 +573,9 @@ button:focus {
   transform-origin-y: 35%;
   transform-origin-z: initial;
 }
+.st{
+  width:150px;
+                 
+                 border:1px solid black;
+                 padding:5px
+}
