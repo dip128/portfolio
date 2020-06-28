@@ -63,4 +63,8 @@ $(document).ready(function(){
        });
        }
       });
+      blink();
   });
+  function blink(){
+      $('.iconPM').delay(1000).fadeTo(100,0.5).delay(100).fadeTo(100,1, blink);
+  }

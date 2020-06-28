@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Diptom Saha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -35,15 +37,15 @@
     <table id="top_part">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h1>Hello, My name is <span class="nme">Diptom Saha</span> <br> a webdeveloper</h1>
+                <h3 class="intro" style="padding-top:12px;">Hello, My name is <span class="nme" style="font-family: 'Yellowtail', cursive; font-size:65px;">Diptom Saha</span> <br> a webdeveloper</h3>
                 <button class="btn_one">Hire Me</button><br>
                 <table>
                     <tr>
                         <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fa fa-envelope" aria-hidden="true"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-linkedin"></i></a></td>
+
                     </tr>
                 </table>
             </td>
@@ -51,7 +53,8 @@
         </tr>
     </table>
     <div id="bio">
-        <h1>about</h1>
+      <i class='fa fa-heart faa-pulse animated fa-2x iconPM'></i>
+        <h1 class="icon-heading">about</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
@@ -59,8 +62,66 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
     </div>
+    <div id="bio">
+       <i class="fa fa-cog fa-spin fa-2x" ></i>
+        <h1 class="icon-heading">Skills</h1>
+        <div class="row container" style="border:25px;">
+      <div class=" container col l4 s6">
+        <div class="progress">
+            <div class="determinate" style="width: 70%"></div>
+      </div>
+      </div>
+      <div class=" container col l4 s6">
+        <div class="progress">
+            <div class="determinate" style="width: 70%"></div>
+      </div>
+      </div>
+      <div class=" container col l4 s6">
+        <div class="progress">
+            <div class="determinate" style="width: 70%"></div>
+      </div>
+      </div>
+    </div>
+    <div class="row container" style="border:25px;">
+  <div class=" container col l4 s6">
+    <div class="progress">
+        <div class="determinate" style="width: 70%"></div>
+  </div>
+  </div>
+  <div class=" container col l4 s6">
+    <div class="progress">
+        <div class="determinate" style="width: 70%"></div>
+  </div>
+  </div>
+  <div class=" container col l4 s6">
+    <div class="progress">
+        <div class="determinate" style="width: 70%"></div>
+  </div>
+  </div>
+</div>
+    <div class="row container" style="border:25px;">
+  <div class=" container col l4 s6">
+    <div class="progress">
+        <div class="determinate" style="width: 70%"></div>
+  </div>
+  </div>
+  <div class=" container col l4 s6">
+    <div class="progress">
+        <div class="determinate" style="width: 70%"></div>
+  </div>
+  </div>
+  <div class=" container col l4 s6">
+    <div class="progress">
+        <div class="determinate" style="width: 70%"></div>
+  </div>
+  </div>
+</div>
+
+    </div>
+    </section>
     <div id="work">
-        <h1>work</h1>
+      <i class='fa fa-wrench faa-wrench animated fa-2x'></i>
+        <h1 class="icon-heading">work</h1>
         <div id="photos">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
@@ -91,7 +152,7 @@
                                     <div id="address">
                                       54/A South Kodalia,<br>
                                       New Barrackpore,Kolkata-700131<br>
-                                      india
+                                      India
                                     </div>
                                     </td>
                                 </tr>
@@ -99,9 +160,9 @@
                                     <td>
                                         <a class="social"><i class="fab fa-facebook"></i></a>
                                         <a class="social"><i class="fab fa-twitter"></i></a>
-                                        <a class="social"><i class="fab fa-instagram"></i></a>
-                                        <a class="social"><i class="fab fa-dribbble"></i></a>
-                                        <a class="social"><i class="fab fa-medium"></i></a>
+                                        <a class="social"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                        <a class="social"><i class="fab fa-linkedin"></i></a>
+
                                     </td>
                                 </tr>
                             </table>
