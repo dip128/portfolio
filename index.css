@@ -575,7 +575,10 @@ button:focus {
 }
 .st{
   width:150px;
-                 
+
                  border:1px solid black;
                  padding:5px
+}
+.img-hover-zoom:hover {
+ transform: scale(1.08) 1.5 ;
 }
